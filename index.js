@@ -24,7 +24,7 @@ inquirer
             name: 'usage',
         },
         {
-            type: 'checkbox',
+            type: 'list',
             message: 'Which license is this application covered under?',
             name: 'license',
             choices: ['ISC', 'MIT', 'BSD', 'APACHE 2', 'GPL'],
