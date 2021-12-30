@@ -1,8 +1,8 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 
-inquirer
-    .prompt([
+const promptUser = () => {
+    return inquirer.prompt([
         {
             type: 'input',
             message: 'What is your Project title?',
@@ -48,5 +48,8 @@ inquirer
             type: 'input',
             message: 'Please enter your github username so we can link your github profile!',
             name: 'git',
-        }
+        },
     ])
+}
+
+const generateREADME = ({title, description, instructions, usage, license, contributions, tests, email, git}) =>
