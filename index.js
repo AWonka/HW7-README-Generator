@@ -52,4 +52,38 @@ const promptUser = () => {
     ])
 }
 
-const generateREADME = ({title, description, instructions, usage, license, contributions, tests, email, git}) =>
+const generateREADME = ({ title, description, instructions, usage, license, contributions, tests, email, git }) => 
+`# ${title}
+## Place Badge Here
+## Description
+${description}
+
+## Table of Contents
+
+## Install Instructions
+${instructions}
+
+## Usage
+${usage}
+
+## License
+${license}
+
+## Contributions
+${contributions}
+
+## Tests
+${tests}
+
+## Questions
+${email}
+github.com/${git}`;
+
+const init = () => {
+    promptUser()
+    .then((answers) => fs.writeFileSync('generatedREADME.md', generateREADME(answers)))
+    .then(() => console.log('Successfully Generated readme!'))
+    .catch((err) => console.error(err));
+};
+
+init();
