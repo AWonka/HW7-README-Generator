@@ -76,8 +76,10 @@ ${contributions}
 ${tests}
 
 ## Questions
-${email}
-github.com/${git}`;
+If you have any additional questions please feel free to contact me at my email below:  
+${email}  
+Below is a link to my github profile:  
+[github.com/${git}](https://github.com/${git})`;
 
 const init = () => {
     promptUser()

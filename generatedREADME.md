@@ -1,25 +1,27 @@
-# Homework stuff
+# oajisdf
 ## Place Badge Here
 ## Description
-this is a description of the project
+ijdsf
 
 ## Table of Contents
 
 ## Install Instructions
-you have to install these things
+ijdf
 
 ## Usage
-just use the app
+ijdf
 
 ## License
-MIT
+ISC
 
 ## Contributions
-you can do it by this
+oijsdf
 
 ## Tests
-i ran tests
+oidjsf
 
 ## Questions
-wonkaaustin@gmail.com
-github.com/AWonka
+If you have any additional questions please feel free to contact me at my email below:  
+wonkaaustin@gmail.com  
+Below is a link to my github profile:  
+[github.com/AWonka](https://github.com/AWonka)
