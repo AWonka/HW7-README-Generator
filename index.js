@@ -27,7 +27,7 @@ const promptUser = () => {
             type: 'list',
             message: 'Which license is this application covered under?',
             name: 'license',
-            choices: ['ISC', 'MIT', 'BSD', 'APACHE 2', 'GPL'],
+            choices: ['isc', 'mit', 'bsd', 'apache'],
         },
         {
             type: 'input',
@@ -72,7 +72,8 @@ ${instructions}
 ${usage}
 
 ## License
-${license}
+To view information about the license in use please follow the link below:  
+https://choosealicense.com/licenses/${license}/
 
 ## Contributions
 ${contributions}
