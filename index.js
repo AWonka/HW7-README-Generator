@@ -51,14 +51,19 @@ const promptUser = () => {
         },
     ])
 }
+    
+    
+
 
 const generateREADME = ({ title, description, instructions, usage, license, contributions, tests, email, git }) => 
 `# ${title}
-## Place Badge Here
+## Place Badge here
+![PyPI license](https://img.shields.io/static/v1?label=license&message=${license}&color=green)
 ## Description
 ${description}
 
 ## Table of Contents
+
 
 ## Install Instructions
 ${instructions}
