@@ -63,6 +63,12 @@ const generateREADME = ({ title, description, instructions, usage, license, cont
 ${description}
 
 ## Table of Contents
+* [Instructions](#install-instructions)
+* [Usage Guide](#usage)
+* [License Info](#license)
+* [Contributions Guide](#contributions)
+* [Tests](#tests)
+* [Questions?](#questions)
 
 
 ## Install Instructions
