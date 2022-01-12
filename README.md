@@ -1,6 +1,8 @@
 # HW7-README-Generator
 
 ## How to use
+Link to a video guide on how to use this application:
+https://www.youtube.com/watch?v=FLC4X3vB1bE
 
 When using this README Generator you must start by typing node index.js
 
